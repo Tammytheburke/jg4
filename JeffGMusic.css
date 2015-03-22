@@ -33,11 +33,11 @@ nav ul#navMenu li {
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 50%;
   display: block;
 }
 nav ul#navMenu li a {
-  /* These are the actual nav items */
+
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -59,7 +59,6 @@ nav ul#navMenu li a.selected {
   transition-duration: 0.4s;
 }
  nav ul#navMenu li:nth-child(2) a {
-  /* color: #e8d100; /* This just makes the 2nd nav item yellow, not important. */
 }
 
 @media only screen and (min-width: 481px) {
@@ -72,11 +71,24 @@ nav ul#navMenu li a.selected {
   }
   nav ul#navMenu li {
     display: inline-block;
-    width: 25%;
-    /* I'm using 25% here since there's 4 total items. If you have more or less items, you need to adjust this %. */
+    width: 33%;
   }
-}
 
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #main-header {
+    h1 {
+    font-size: .5em; /* 90px/16px  */
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: -1px 1px 1px #333,
+      1px -1px 1px #333;
+    }
+}
+}
 h1 {  
   font-size: 5.625rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
