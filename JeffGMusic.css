@@ -8,7 +8,7 @@ body {
   color: #878787;
   margin: 0;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  background-color: white;
 }
 
 nav {
@@ -76,19 +76,20 @@ nav ul#navMenu li a.selected {
 
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    #main-header {
-    h1 {
-    font-size: .5em; /* 90px/16px  */
-  color: rgba(255, 255, 255, 1);
-  text-transform: uppercase;
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-weight: normal;
-  line-height: 1.3;
-  text-shadow: -1px 1px 1px #333,
-      1px -1px 1px #333;
-    }
+    #main-header h1 {
+     
+        font-size: .5em; 
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;
+        font-family: 'Montserrat Subrayada', sans-serif;
+        font-weight: normal;
+        line-height: 1.3;
+        text-shadow: -1px 1px 1px #333,
+            1px -1px 1px #333;
+    
 }
 }
+
 h1 {  
   font-size: 5.625rem; /* 90px/16px  */
   color: rgba(255, 255, 255, 1);
@@ -102,6 +103,9 @@ h1 {
 
 h2 {
   font-size: 3.3125em; /* 53px/16px  */
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+  font-family: 'Montserrat Subrayada', sans-serif;
   font-weight: normal;
   line-height: 1.1;
   margin: 0 0 .5em; /* 0 0 26px */
@@ -122,6 +126,7 @@ img {
 ul,
 ol {
   margin: 30px 0;
+    list-style: none;
 }
 
 li {
@@ -131,7 +136,7 @@ li {
 /* Pseudo-classes ------------------ */
 
 a:link {
-  color: lavender;
+  color: lightgreen;
   text-decoration: none;
 }
 
@@ -154,6 +159,7 @@ form {
     border: 1px solid #ccc;
     border-radius:  .5em;
     text-align: left;
+    background: black;
 }
 
 form div+div {
@@ -177,6 +183,8 @@ input, textarea {
 
 button {
     margin-left: .5em;
+    border-radius: 15px;
+    background: lavender;
 }
 
 
@@ -187,6 +195,7 @@ button {
   height: 850px;
   background: linear-gradient(white, transparent 60%), #3a3a19 url(JGCOMimages/onstage.jpg) no-repeat center;
     background-size: cover;
+    text-align: center;
   
 }
 
@@ -220,7 +229,8 @@ button {
 
 .primary-content {
 	padding-top: 25px;
-  padding-bottom: 95px;
+    padding-bottom: 95px;
+    text-align: left;
 }
 
 .secondary-content {
@@ -229,26 +239,12 @@ button {
     border-bottom: 2px solid #dfe2e6;
 }
 
-.callout {
-  font-size: 1.25em;
-  border-bottom: 3px solid;
-  padding: 0 9px 3px;
-  margin-top: 20px;
-  display: inline-block;
-  text-align: center;
-}
-
 .main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 10px solid black;
+    background: black;
 }
-
-/*
-.t-border {
-  border-top: 2px solid #dfe2e6;
-}
-*/
 
 /* Layout Styles ------------------ */
 
@@ -263,7 +259,7 @@ button {
 
 .lessons {
   color: white;
-  text-align: left;
+  text-align: center;
   padding: 18% 24%;
   border-top: 10px solid #333;
   margin: 105px 0 60px;
@@ -273,35 +269,20 @@ button {
   background-size: cover;
 }
 
-.arrow {
-  width: 50px;
+.map {
+    text-align: center;
+    margin: 5px auto;
+    width: 450px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius:  .5em;
+    border-style: inset;
+    background: black;
 }
+/* trying to create two columns, but has been applyting to menu ul also*/
+.instruments ul {
 
-/* Floated Columns ------------------ */
-
-/*
-.resorts,
-.tips {
-  width: 46.5%;
-}
-
-.tips {
-  float: left;
-}
-
-.resorts {
-  float: right;
-}
-*/
-
-/* Float Clearfix ------------------ */
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.button {
-    padding-left:  90px;
+      columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
