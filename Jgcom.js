@@ -1,0 +1,1 @@
+confirm("Learning to play an instrument is good for your health!");
