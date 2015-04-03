@@ -165,19 +165,19 @@ button {
 /* Main Styles --------------------- */
 
 .main-header {
-  padding-top: 170px;
-  height: 850px;
-  background: linear-gradient(white, transparent 60%), #3a3a19 url(JGCOMimages/onstage.jpg) no-repeat center;
+  padding-top: 100px;
+  height: 550px;
+  background: linear-gradient(white, transparent 60%), #000 url(JGCOMimages/onstage.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
   
 }
 
 .page-header {
-  padding-top: 170px;
-  height: 850x;
-  background: #ffa949 url(JGCOMimages/Tecchler.jpg) no-repeat center;
-  background-size:cover;
+  padding-top: 100px;
+  height: 550x;
+  background: #000 url(JGCOMimages/Tecchler.jpg) no-repeat center;
+  background-size:auto;
   
 
 }
@@ -211,7 +211,7 @@ button {
 }
 
 .secondary-content {
-	padding-top: 80px;
+	padding-top: 25px;
 	padding-bottom: 70px;
     border-bottom: 2px solid #dfe2e6;
 }
@@ -247,7 +247,7 @@ button {
 }
     .google-map {
     position: relative;
-    padding-bottom: 75%;
+    padding-bottom: 55%;
     height: 0;
     overflow: hidden;
 /*
@@ -263,7 +263,7 @@ button {
         left: 0;
         width:100%; 
         height: 100%; 
-    }
+}
 
 
 /* trying to create two columns, but has been applyting to menu ul also*/
@@ -295,15 +295,16 @@ button {
 @media only screen and (min-width: 481px) {
   nav #navToggle {
     display: none;
-  }
+}
+    
   nav ul#navMenu,
   nav ul#navMenu.closed {
     display: block;
-  }
+}
   nav ul#navMenu li {
     display: inline-block;
     width: 33%;
-  }
+}
     h1 {
     font-size: 5.5em; 
         color: rgba(255, 255, 255, 1);
@@ -314,16 +315,16 @@ button {
         text-shadow: -1px 1px 1px #333,
             1px -1px 1px #333;
     
-    }
+}
     h2 {
       font-size: 3.5em; /* 53px/16px  */
     color: rgba(255, 255, 255, 1);
     text-transform: uppercase;
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-weight: normal;
-  line-height: 1.1;
-  margin: 0 0 0em; /* 0 0 26px */
-    }
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 0 0 0em; /* 0 0 26px */
+}
     
 .title {
   color: white;
@@ -331,20 +332,33 @@ button {
     text-shadow: -1px 1px 1px #333,
       1px -1px 1px #333;  
 }
+.main-header {
+  padding-top: 100px;
+  height: 850px;
+  background: linear-gradient(white, transparent 60%), #3a3a19 url(JGCOMimages/onstage.jpg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+  
+}
 
+.page-header {
+  padding-top: 170px;
+  height: 850x;
+  background: #ffa949 url(JGCOMimages/Tecchler.jpg) no-repeat center;
+  background-size:cover;
     form {
     margin: 0 auto;
-    width: 450px;
+    width: 650px;
     padding: 1em;
     border: 1px solid #ccc;
     border-radius:  .5em;
     text-align: left;
     background: black;
 }
-    
+   
     input, textarea {
     font: 1em sans-serif;
-    width: 375px;
+    width: 600px;
     box-sizing: border-box;
     border: 1px solid #999;
 }
