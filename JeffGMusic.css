@@ -9,10 +9,12 @@ body {
   margin: 0;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: white;
+    
 }
 
 nav {
   background-color: black;
+    
 }
 nav #navToggle {
   /* This is the "Menu" prompt only visible on small viewports */
@@ -23,7 +25,8 @@ nav #navToggle {
 }
 nav ul#navMenu {
   margin: 0;
-  padding: 0;
+  padding: 10;
+  text-align: inherit;
 }
 nav ul#navMenu.closed {
   display: none;
@@ -127,7 +130,7 @@ a:active {
 
 form {
     margin: 0 auto;
-    width: 450px;
+    width: 275px;
     padding: 1em;
     border: 1px solid #ccc;
     border-radius:  .5em;
@@ -142,15 +145,13 @@ form div+div {
 label {
     display: inline-block;
     width: 90px;
-    text-align: right;
+    text-align: left;
 }
 
 input, textarea {
     font: 1em sans-serif;
-    /* to give the same size to all text field*/
-    width: 300px;
+    width: 245px;
     box-sizing: border-box;
-    /*To harminize the look and feel of the text field border */
     border: 1px solid #999;
 }
 
@@ -237,24 +238,34 @@ button {
   color: white;
   text-align: left;
   padding: 18% 10%;
-  border-top: 10px solid #333;
-  margin: 105px 0 60px;
+/*  border-top: 10px solid #333;*/
+  margin: 30px 0 0;
   border-radius: 10px;
-    background: linear-gradient(black, transparent 70%),
+  background: linear-gradient(black, transparent 70%),
             #434a52 url('JGCOMimages/strumming guitar.jpg') no-repeat center;
   background-size: cover;
 }
-
-.map {
-    text-align: center;
-    margin: 5px auto;
-    width: 450px;
-    padding: 1em;
+    .google-map {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+/*
     border: 1px solid #ccc;
     border-radius:  .5em;
     border-style: inset;
     background: black;
+*/
 }
+    .google-maps iframe {
+    position: absolute;
+        top: 0;
+        left: 0;
+        width:100%; 
+        height: 100%; 
+    }
+
+
 /* trying to create two columns, but has been applyting to menu ul also*/
 .instruments ul {
 
@@ -321,4 +332,28 @@ button {
       1px -1px 1px #333;  
 }
 
+    form {
+    margin: 0 auto;
+    width: 450px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius:  .5em;
+    text-align: left;
+    background: black;
+}
+    
+    input, textarea {
+    font: 1em sans-serif;
+    width: 375px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+    
+/*
+    .location {
+    width: auto;
+    height: auto;
+    }
+*/
 }
