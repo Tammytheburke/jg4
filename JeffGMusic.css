@@ -129,7 +129,11 @@ a:active {
 }
 
 form {
+<<<<<<< Updated upstream
     margin: 0 auto;
+=======
+    margin: auto;
+>>>>>>> Stashed changes
     width: 275px;
     padding: 1em;
     border: 1px solid #ccc;
@@ -165,31 +169,30 @@ button {
 /* Main Styles --------------------- */
 
 .main-header {
-  padding-top: 170px;
-  height: 850px;
-  background: linear-gradient(white, transparent 60%), #3a3a19 url(JGCOMimages/onstage.jpg) no-repeat center;
+  padding-top: 80px;
+  height: 510px;
+  background: linear-gradient(white, transparent 60%), #000 url(JGCOMimages/onstage.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
   
 }
 
 .page-header {
-  padding-top: 170px;
-  height: 850x;
-  background: #ffa949 url(JGCOMimages/Tecchler.jpg) no-repeat center;
-  background-size:cover;
+  padding-top: 70px;
+  height: 400x;
+  background: #000 url(JGCOMimages/Tecchler.jpg) no-repeat center;
+  background-size: auto;
   
-
 }
 
 .title {
   color: white;
   font-size: 1.325rem; /* 26px/16px */
-    text-shadow: -1px 1px 1px #333,
+  text-shadow: -1px 1px 1px #333,
       1px -1px 1px #333; 
-    padding-left: 5px;
-    padding-right: 5px;
-    max-width: 80%;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 80%;
 }
 
 .intro {
@@ -205,7 +208,7 @@ button {
 }
 
 .primary-content {
-	padding-top: 25px;
+	padding-top: 10px;
     padding-bottom: 95px;
     text-align: left;
 }
@@ -217,10 +220,10 @@ button {
 }
 
 .main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-bottom: 10px solid black;
-    background: black;
+  background: black;
 }
 
 /* Layout Styles ------------------ */
@@ -245,6 +248,7 @@ button {
             #434a52 url('JGCOMimages/strumming guitar.jpg') no-repeat center;
   background-size: cover;
 }
+<<<<<<< Updated upstream
     .google-map {
     position: relative;
     padding-bottom: 75%;
@@ -258,20 +262,45 @@ button {
 */
 }
     .google-maps iframe {
+=======
+    .map {
+    position: relative;
+    padding-bottom: 100%;
+    border-radius:  .5em;
+    height: 0;
+    overflow: hidden;
+
+
+}
+    .map iframe {
+>>>>>>> Stashed changes
     position: absolute;
         top: 0;
         left: 0;
         width:100%; 
         height: 100%; 
+<<<<<<< Updated upstream
     }
 
 
 /* trying to create two columns, but has been applyting to menu ul also*/
 .instruments ul {
+=======
 
-      columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+    }
+
+>>>>>>> Stashed changes
+
+/* trying to create two columns, but has been applyting to menu ul also*/
+.instruments {
+  max-width: 400px;
+    padding: .5em;
+  -moz-column-count: 2;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 1em;
+  column-count: 2;
+  column-gap: .5em;
 }
 
 /*
@@ -304,6 +333,13 @@ button {
     display: inline-block;
     width: 33%;
   }
+    
+    .page-header {
+  padding-top: 190px;
+  height: 800x;
+  background: #ffa949 url(JGCOMimages/Tecchler.jpg) no-repeat center;
+  background-size: cover;
+}
     h1 {
     font-size: 5.5em; 
         color: rgba(255, 255, 255, 1);
