@@ -217,9 +217,9 @@ button {
 }
 
 .main-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-bottom: 10px solid black;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 10px solid black;
     background: black;
 }
 
@@ -227,25 +227,25 @@ button {
 
 .primary-content, 
 .secondary-content {
-  width: 80%;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: auto;
-  max-width: 960px;
+    width: 80%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: auto;
+    max-width: 960px;
 }
 
 .lessons {
-  color: white;
-  text-align: left;
-  padding: 18% 10%;
-/*  border-top: 10px solid #333;*/
-  margin: 30px 0 0;
-  border-radius: 10px;
-  background: linear-gradient(black, transparent 70%),
-            #434a52 url('JGCOMimages/strumming guitar.jpg') no-repeat center;
-  background-size: cover;
+    color: white;
+    text-align: left;
+    padding: 18% 10%;
+    /*  border-top: 10px solid #333;*/
+    margin: 30px 0 0;
+    border-radius: 10px;
+    background: linear-gradient(black, transparent 70%),
+                #434a52 url('JGCOMimages/strumming guitar.jpg') no-repeat center;
+    background-size: cover;
 }
-    .google-map {
+.google-map {
     position: relative;
     padding-bottom: 55%;
     height: 0;
@@ -257,25 +257,25 @@ button {
     background: black;
 */
 }
-    .google-maps iframe {
+.google-maps iframe {
     position: absolute;
-        top: 0;
-        left: 0;
-        width:100%; 
-        height: 100%; 
+    top: 0;
+    left: 0;
+    width:100%; 
+    height: 100%; 
 }
 
 .instruments {
     max-width: 400px;
-  padding: .5em;
-  -moz-column-count: 2;
-  -moz-column-gap: 1em;
-  -webkit-column-count: 2;
-  -webkit-column-gap: 1em;
-  column-count: 2;
-  column-gap: .5em;
+    padding: .5em;
+    -moz-column-count: 2;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 1em;
+    column-count: 2;
+    column-gap: .5em;
 }
-}
+
 
 /*
 @media only screen and (min-width : 320px) and (max-width : 480px) {
