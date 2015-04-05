@@ -174,7 +174,7 @@ button {
 }
 
 .page-header {
-  padding-top: 100px;
+  padding-top: 78px;
   height: 550x;
   background: #000 url(JGCOMimages/Tecchler.jpg) no-repeat center;
   background-size:auto;
@@ -266,7 +266,9 @@ button {
 }
 
 .instruments {
+    position: center;
     max-width: 400px;
+    margin-left:15%;
     padding: .5em;
     -moz-column-count: 2;
     -moz-column-gap: 1em;
@@ -308,6 +310,7 @@ button {
     display: inline-block;
     width: 33%;
 }
+    
     h1 {
     font-size: 5.5em; 
         color: rgba(255, 255, 255, 1);
@@ -349,6 +352,18 @@ button {
       height: 850x;
       background: #ffa949 url(JGCOMimages/Tecchler.jpg) no-repeat center;
       background-size:cover;
+}
+    .instruments {
+    position: center;
+    max-width: 400px;
+    margin-left:15%;
+    padding: .5em;
+    -moz-column-count: 4;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 1em;
+    column-count: 4;
+    column-gap: 1em;
 }
     
     form {
