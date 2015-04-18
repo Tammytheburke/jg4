@@ -165,26 +165,26 @@ button {
 /* Main Styles --------------------- */
 
 .main-header {
-  padding-top: 100px;
-  height: 550px;
-  background: linear-gradient(white, transparent 60%), #000 url(JGCOMimages/onstage.jpg) no-repeat center;
+    padding-top: 100px;
+    height: 550px;
+    background: linear-gradient(white, transparent 60%), #000 url(JGCOMimages/onstage.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
   
 }
 
 .page-header {
-  padding-top: 78px;
-  height: 550x;
-  background: #000 url(JGCOMimages/Tecchler.jpg) no-repeat center;
-  background-size:auto;
+    padding-top: 78px;
+    height: 550x;
+    background: #000 url(JGCOMimages/Tecchler.jpg) no-repeat center;
+    background-size:auto;
   
 
 }
 
 .title {
-  color: white;
-  font-size: 1.325rem; /* 26px/16px */
+    color: white;
+    font-size: 1.325rem; /* 26px/16px */
     text-shadow: -1px 1px 1px #333,
       1px -1px 1px #333; 
     padding-left: 5px;
@@ -193,15 +193,15 @@ button {
 }
 
 .intro {
-  font-size: 1em; /* 20px/16px */
-  line-height: 1.6;  
+    font-size: 1em; /* 20px/16px */
+    line-height: 1.6;  
 }
 
 .primary-content,
 .main-header,
 .main-footer,
 .page-header {
-  text-align: center;
+    text-align: center;
 }
 
 .primary-content {
@@ -245,18 +245,14 @@ button {
                 #434a52 url('JGCOMimages/strumming guitar.jpg') no-repeat center;
     background-size: cover;
 }
+
 .google-map {
     position: relative;
     padding-bottom: 55%;
     height: 0;
     overflow: hidden;
-/*
-    border: 1px solid #ccc;
-    border-radius:  .5em;
-    border-style: inset;
-    background: black;
-*/
 }
+
 .google-maps iframe {
     position: absolute;
     top: 0;
@@ -298,7 +294,8 @@ button {
 */
 
 @media only screen and (min-width: 481px) {
-  nav #navToggle {
+ 
+    nav #navToggle {
     display: none;
 }
     
@@ -313,23 +310,23 @@ button {
     
     h1 {
     font-size: 5.5em; 
-        color: rgba(255, 255, 255, 1);
-        text-transform: uppercase;
-        font-family: 'Montserrat Subrayada', sans-serif;
-        font-weight: normal;
-        line-height: 1.3;
-        text-shadow: -1px 1px 1px #333,
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-weight: normal;
+    line-height: 1.3;
+    text-shadow: -1px 1px 1px #333,
             1px -1px 1px #333;
     
 }
     h2 {
       font-size: 3.5em; /* 53px/16px  */
-    color: rgba(255, 255, 255, 1);
-    text-transform: uppercase;
-    font-family: 'Montserrat Subrayada', sans-serif;
-    font-weight: normal;
-    line-height: 1.1;
-    margin: 0 0 0em; /* 0 0 26px */
+      color: rgba(255, 255, 255, 1);
+      text-transform: uppercase;
+      font-family: 'Montserrat Subrayada', sans-serif;
+      font-weight: normal;
+      line-height: 1.1;
+      margin: 0 0 0em; /* 0 0 26px */
 }
     
     .title {
@@ -341,7 +338,7 @@ button {
     .main-header {
       padding-top: 100px;
       height: 850px;
-      background: linear-gradient(white, transparent 60%), #3a3a19 url(JGCOMimages/onstage.jpg) no-repeat center;
+      background: linear-gradient(white, transparent 60%), #000 url(JGCOMimages/onstage.jpg) no-repeat center;
       background-size: cover;
       text-align: center;
 
@@ -350,20 +347,20 @@ button {
     .page-header {
       padding-top: 170px;
       height: 850x;
-      background: #ffa949 url(JGCOMimages/Tecchler.jpg) no-repeat center;
+      background: #000 url(JGCOMimages/Tecchler.jpg) no-repeat center;
       background-size:cover;
 }
     .instruments {
-    position: center;
-    max-width: 400px;
-    margin-left:15%;
-    padding: .5em;
-    -moz-column-count: 4;
-    -moz-column-gap: 1em;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 1em;
-    column-count: 4;
-    column-gap: 1em;
+        position: center;
+        max-width: 400px;
+        margin-left:15%;
+        padding: .5em;
+        -moz-column-count: 4;
+        -moz-column-gap: 1em;
+        -webkit-column-count: 4;
+        -webkit-column-gap: 1em;
+        column-count: 4;
+        column-gap: 1em;
 }
     
     form {
